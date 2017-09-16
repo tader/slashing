@@ -1,0 +1,27 @@
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: inherit;
+
+.title {
+  font-size: 3vh;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: end;
+  align-self: center;
+}
+
+.value {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+
+  grid-column-start: 2;
+  grid-row-start: 1;
+  font-size: 3vh;
+  justify-self: start;
+  align-self: center;
+}

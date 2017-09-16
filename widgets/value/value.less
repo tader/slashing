@@ -1,0 +1,36 @@
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1.5fr 3fr 2fr;
+
+.title {
+  font-size: 4vh;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: center;
+  align-self: end;
+}
+
+.value {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+
+  grid-column-start: 1;
+  grid-row-start: 2;
+  font-size: 13vh;
+  justify-self: center;
+  align-self: center;
+}
+
+.comment {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  font-size: 4vh;
+  text-transform: lowercase;
+  justify-self: center;
+  align-self: start;
+}
